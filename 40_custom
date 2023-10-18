@@ -1,0 +1,8 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+set superusers="toor"
+password_pbkdf2 toor grub.pbkdf2.sha512.10000.C93034AF365DCEA36A51573CA216B27C42B6932067090E5C21E82DE1B6FE8607F8C6722112CBBF34EC74645B0E9CE637804B9CA8771345852D1425CD85198083.CF73D3AFDC9054C0C3F744BEE7CF509A30F4D58F4C31EE105EB9D778F8885AD5EB9602FA5A824756C785A6EF210E2431D4620EC9CA7B808627514BEE1387BC2E

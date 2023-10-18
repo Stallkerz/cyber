@@ -1,8 +1,0 @@
-#!/bin/bash
-cp -r ufw /etc/default/ufw
-ufw default deny incoming
-ufw default allow outgoing
-ufw allow 8001
-ufw deny 22/tcp
-ufw deny 22
-ufw reload

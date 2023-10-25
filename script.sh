@@ -12,3 +12,4 @@ ufw allow 8001
 ufw deny 22/tcp
 ufw deny 22
 ufw reload
+ufw enable
